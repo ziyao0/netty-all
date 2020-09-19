@@ -20,3 +20,6 @@
 /socket/.mvn/wrapper/maven-wrapper.jar
 /socket/.mvn/wrapper/maven-wrapper.properties
 /socket/.mvn/wrapper/MavenWrapperDownloader.java
+!/mvnw.cmd
+!/mvnw
+!/HELP.md
