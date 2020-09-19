@@ -18,7 +18,7 @@ public class BioSocketClient {
         log.info("向服务端发送数据结束");
         byte[] bytes = new byte[1024];
         //接收服务端回传的数据
-        socket.getInputStream().read(bytes)
+        socket.getInputStream().read(bytes);
         log.info("接收到服务端的数据：" + new String(bytes));
         socket.close();
 
