@@ -25,7 +25,7 @@ public class BioSocketServer {
                     handler(socket);
                 } catch (IOException e) {
                     log.error("异常信息：", e);
-                }finally {
+                } finally {
                     try {
                         socket.close();
                     } catch (IOException e) {

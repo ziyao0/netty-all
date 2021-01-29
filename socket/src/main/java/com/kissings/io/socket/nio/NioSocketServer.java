@@ -33,7 +33,7 @@ public class NioSocketServer {
         socketChannel.register(selector, SelectionKey.OP_ACCEPT);
         while (true) {
             log.info("等待时间发生====");
-            int select = selector.select();
+            selector.select();
             log.info("有事件发生-=====");
             Iterator<SelectionKey> selectionKeyIterator = selector.selectedKeys().iterator();
             while (selectionKeyIterator.hasNext()) {
